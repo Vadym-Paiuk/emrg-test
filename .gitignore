@@ -42,10 +42,10 @@ wp-config.php
 /wp-content/plugins
 
 # All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-/wp-content/themes
+/wp-content/themes/*
 
-#IDES
+#Current Theme
+!/wp-content/themes/twentytwentyone-child/
+
+#IDEA
 /.idea
